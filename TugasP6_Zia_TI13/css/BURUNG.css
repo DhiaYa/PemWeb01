@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+}
+
+#header{
+    background-color: burlywood;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header blockquote{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px dotted black;
+    background-color: gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    display: inline;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    .gambar{
+        
+        width: 75%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .gambar img{
+        width: auto;
+        height: auto;
+    }
+
+    .isi span{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        font-size: 4.5em;
+        color: blue;
+    }
+    
+
+    
+    
