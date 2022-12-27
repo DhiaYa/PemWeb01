@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <script>
+       function gambar(){
+        let drop_img = document.getElementById("dropdown_img").value;
+        let image = document.getElementById("image");
+
+        if (drop_img == "gorila") {
+            image.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_EI5jDxsMq-b0xJwHyBPvUKxjo9bkzvtWA&usqp=CAU")
+            alert("ini gambar gorila")
+        }
+        else if (drop_img == "singa") {
+            image.setAttribute("src", "https://img.okezone.com/content/2022/06/10/406/2609346/pelihara-3-singa-di-resor-pribadi-pria-arab-hadapi-10-tahun-penjara-1xukaE7Zct.jpg")
+            alert("ini gambar singa")
+        }
+        else if (drop_img == "elang") {
+            image.setAttribute("src", "https://1.bp.blogspot.com/-t3l9o83PGPs/YBtMUB0QI7I/AAAAAAAAAmc/5Ax6v9sbkq8JKOvx1CIaVraAYZbf0GpMwCLcBGAsYHQ/s691/images%2B-%2B2021-02-04T082208.111.jpeg")
+            alert("ini gambar elang")
+        }
+       }
+
+
+        
+
+       
+    </script>
+</head>
+<body>
+    <select id="dropdown_img" onchange="gambar()">
+        <option hidden>---Pilih Gambar---</option>
+        <option value="gorila">Gorila</option>
+        <option value="singa">Singa</option>
+        <option value="elang">Elang</option>
+    </select>
+    <br>
+    <img alt="gambar" id="image">
+    
+</body>
+</html>
